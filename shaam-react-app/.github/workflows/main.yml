@@ -37,5 +37,5 @@ jobs:
       run: npm install -g surge
       
     - name: deploying on surge 
-      run: surge build ./ http://evening_shaam.surge.sh/ --token {{secret.SURGE_TOKEN}}  
+      run: surge build ./ http://evening_shaam.surge.sh/ --token "9a5c217c15005fc89dfc4208fa0cba71"  
  
